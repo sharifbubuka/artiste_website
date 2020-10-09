@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  overflow-x: hidden;
+}
+.nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: .7s;
+}
+.nav a {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 20px 30px;
+  font-size: 25px;
+  text-decoration: none;
+  color: #ccc;
+  text-align: center;
+}
+.nav a:hover {
+  color: #fff;
+  transition: .4s;
+}
+.nav #music_link img {
+  visibility: hidden;
+}
+.nav .close {
+  position: absolute;
+  top: 0;
+  right: -10px;
+  margin-left: 50px;
+  font-size: 36px;
+}
+.slide a {
+  color: #000;
+  font-size: 36px;
+}
+.slide a #bars,
+.close #times {
+  transition: opacity .7s;
+}
+#content {
+  padding: 10px;
+  transition: margin-left 0.7s;
+  overflow: hidden;
+  width: 100%;
+}
+.logo {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  width: 150px;
+  transition: right .9s;
+}
+
+.music-player {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  z-index: 2;
+
+}
+#song_cover {
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0 5px;
+  position: absolute;
+  left: 75px;
+}
+
+.controls div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2px;
+  padding-left: 2px;
+  height: 65px;
+}
+
+.controls div #rewind,
+.controls div #play,
+.controls div #fastforward {
+  background-color: #ccc;
+  margin: 0 2px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .4s;
+}
+.controls div #rewind:hover,
+.controls div #play:hover,
+.controls div #fastforward:hover {
+  background-color: white;
+} 
+.controls img {
+  width: 15px;
+  height: 15px;
+  transition: .5s;
+}
+.song_details {
+  width: fit-content;
+  min-width: fit-content;
+  max-width: 300px;
+  padding-left: 2px;
+  overflow: hidden;
+  font-size: 13px;
+  position: absolute;
+  bottom: 0;
+  transition: .7s;
+}
+
+.progress {
+  overflow: hidden;
+  position: absolute;
+  width: 58vw;
+  left: 190px;
+  transition: .7s;
+}
+
+.progress .count {
+  position: absolute;
+  bottom: 0;
+  right: 00px;
+  background-color: #ccc;
+  width: fit-content;
+  padding: 2px 4px;
+  font-size: 13px;
+}

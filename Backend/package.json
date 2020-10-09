@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend services to Dextar's website",
+  "main": "index.js",
+  "scripts": {
+    "devstart": "nodemon index.js"
+  },
+  "keywords": [
+    "Dextar",
+    "website",
+    "backend"
+  ],
+  "author": "Bubuka Sharif <sharifbubuka256@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "chalk": "4.1.0",
+    "nodemon": "2.0.4"
+  }
+}
