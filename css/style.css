@@ -15,7 +15,7 @@ body {
 .banner__bg {
   min-height: 100vh;
   min-width: 100vw;
-  background: url('/images/web_mobile_banner.jpg') no-repeat center center fixed;
+  background: url('images/web_mobile_banner.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
