@@ -43,11 +43,11 @@ body {
   top: 0;
   right: -10px;
   margin-left: 50px;
-  font-size: 36px;
+  font-size: 60px;
 }
 .slide a {
   color: #000;
-  font-size: 36px;
+  font-size: 60px;
 }
 .slide a #bars,
 .close #times {
@@ -63,14 +63,14 @@ body {
   position: fixed;
   top: 15px;
   right: 20px;
-  width: 150px;
+  width: 250px;
   transition: right .9s;
 }
 
 .music-player {
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  left: 0;
+  margin: 0 auto;
   width: 100vw;
   display: flex;
   align-items: center;

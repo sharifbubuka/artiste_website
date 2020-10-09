@@ -2,7 +2,6 @@ function openSlideMenu() {
   document.getElementById('menu').style.width = '250px';
   document.getElementById('content').style.marginLeft = '250px';
   document.getElementById('bars').style.opacity = '0'; 
-  document.getElementsByClassName('song_details')[0].style.color = '#ccc';
 
   setTimeout(() => {
     const logo = document.getElementById('logo');
@@ -19,7 +18,7 @@ function closeSlideMenu() {
   document.getElementById('content').style.marginLeft = '0px';
   document.getElementById('bars').style.opacity = '1';
   document.getElementsByClassName('song_details')[0].style.color = 'black';
-  logo.style.right = '20px';
+  logo.style.right = '50px';
 
   times.style.opacity = '0';
   setTimeout(() => {
