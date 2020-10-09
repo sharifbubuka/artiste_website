@@ -11,7 +11,16 @@ body {
   overflow-x: hidden;
   width: 100%;
   height: 100%;
-  padding: 0 20px;
+}
+.banner__bg {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: url('/images/web_mobile_banner.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: 2px solid black;
 }
 .nav {
   height: 100%;
@@ -26,7 +35,8 @@ body {
   transition: .7s;
   display: flex;
   flex-direction: column;
-  padding-top: 20%;
+  padding-top: 30%;
+  overflow-y: hidden;
 }
 .nav a {
   display: flex;
@@ -92,11 +102,11 @@ body {
   height: fit-content;
 }
 #song_cover {
-  width: 100;
-  height: 130px;
+  width: 160px;
+  height: 160px;
   border-radius: 25px;
+  cursor: pointer;
 }
-
 .controls {
   display: flex;
   flex-direction: column;
@@ -104,6 +114,7 @@ body {
   justify-content: start;
   max-height: 126px;
   margin: 0 5px;
+  align-self: start;
 }
 
 .controls div:nth-child(1) {
@@ -113,14 +124,13 @@ body {
   padding: 2px 2px;
   height: fit-content;
 }
-
 .controls div #rewind,
 .controls div #play,
 .controls div #fastforward {
   background-color: #ccc;
-  margin: 0 2px;
-  width: 60px;
-  height: 60px;
+  margin: 0 3px;
+  width: 80px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,11 +150,12 @@ body {
 }
 .song_details {
   width: 100%;
-  max-height: 50px;
+  max-height: fit-content;
   padding-left: 2px;
-  overflow: hidden;
   font-size: 23px;
   transition: .7s;
+  padding-top: 8px;
+  padding-left: 5px;
 }
 
 .progress {

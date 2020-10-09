@@ -6,34 +6,37 @@
       defer
       src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
     ></script>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/landscapephones.css">
     <link rel="stylesheet" href="css/tablets.css" />
     <link rel="stylesheet" href="css/latops.css" />
     <link rel="stylesheet" href="css/largedesktops.css" />
   </head>
   <body>
-    <div id="content">
-      <span class="slide">
-        <a href="#" onclick="openSlideMenu()">
-          <i class="fas fa-bars" id="bars"></i>
-        </a>
-      </span>
-
-      <div id="menu" class="nav">
-        <a href="#" class="close" onclick="closeSlideMenu()">
-          <i class="fas fa-times" id="times"></i>
-        </a>
-        <a href="#">Dextar</a>
-        <a href="#" id="music_link">Music<img src="images/sound gif.gif" alt="#" /></a>
-        <a href="#">Shop</a>
-        <a href="#">Press</a>
-
-        <img src="images/logo.png" alt="logo" class="logo" id="logo" />
+    <div class="banner__bg">
+      <div id="content">
+        <span class="slide">
+          <a href="#" onclick="openSlideMenu()">
+            <i class="fas fa-bars" id="bars"></i>
+          </a>
+        </span>
+  
+        <div id="menu" class="nav">
+          <a href="#" class="close" onclick="closeSlideMenu()">
+            <i class="fas fa-times" id="times"></i>
+          </a>
+          <a href="#">Dextar</a>
+          <a href="#" id="music_link">Music<img src="images/sound gif.gif" alt="#" /></a>
+          <a href="#">Shop</a>
+          <a href="#">Press</a>
+  
+          <img src="images/logo.png" alt="logo" class="logo" id="logo" />
+        </div>
       </div>
     </div>
-
     <div class="music_player">
       <img src="images/song_cover.jpg" alt="#" id="song_cover" />
+      
       <div class="controls">
         <div>
           <div id="rewind" class="control"><img src="images/rewind.png" alt="#" /></div>
@@ -42,7 +45,7 @@
         </div>
         <div class="song_details">
           <span id="artiste">Dextar</span> <br />
-          <span class="title">killin' me (Remix)</span>
+          <span class="title">killin' me (Remix)</span> <!--not more than 25 chars-->
         </div>
       </div>
       <div class="progress">

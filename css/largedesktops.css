@@ -3,8 +3,39 @@
   body {
     background-color: green;
   }
-
-  .music-player {
-    justify-content: center;
+  .slide a {
+    display: none !important;
+  }
+  .logo {
+    top: 20px;
+    left: 20%;
+  }
+  .music_player {
+    left: 20%;
+    width: 60vw;
+  }
+  #song_cover {
+    width: 120px;
+    height: 120px;
+  }
+  .controls {
+    max-height: 120px;
+  }
+  .controls div #rewind,
+  .controls div #play,
+  .controls div #fastforward {
+    width: 50px;
+    height: 50px;
+  }
+  .controls img {
+    width: 20px;
+    height: 20px;
+  }
+  .song_details {
+    font-size: 19px;
+  }
+  .progress img 
+  .progress .count {
+    font-size: 15px;
   }
 }
