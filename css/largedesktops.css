@@ -3,4 +3,8 @@
   body {
     background-color: green;
   }
+
+  .music-player {
+    justify-content: center;
+  }
 }

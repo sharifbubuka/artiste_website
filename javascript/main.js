@@ -1,12 +1,14 @@
 function openSlideMenu() {  
+  //const logo = document.getElementById('logo');
   document.getElementById('menu').style.width = '50%';
-  document.getElementById('content').style.marginLeft = '50%';
+  // document.getElementById('content').style.marginLeft = '50%';
   document.getElementById('bars').style.opacity = '0'; 
+  document.getElementsByClassName('song_details')[0].style.color = '#ccc';
 
   setTimeout(() => {
     const logo = document.getElementById('logo');
-    const styleRight = ((window.innerWidth / 2) / 2) ;
-    logo.style.right = styleRight + 'px';
+    const styleRight = ((window.innerWidth / 2) / 2) + 90 ;
+    //logo.style.right = styleRight + 'px';
   }, 10);
 };
 
