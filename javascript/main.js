@@ -1,11 +1,11 @@
 function openSlideMenu() {  
-  document.getElementById('menu').style.width = '250px';
-  document.getElementById('content').style.marginLeft = '250px';
+  document.getElementById('menu').style.width = '50%';
+  document.getElementById('content').style.marginLeft = '50%';
   document.getElementById('bars').style.opacity = '0'; 
 
   setTimeout(() => {
     const logo = document.getElementById('logo');
-    const styleRight = ((window.innerWidth - 250) / 2) - 72;
+    const styleRight = ((window.innerWidth / 2) / 2) ;
     logo.style.right = styleRight + 'px';
   }, 10);
 };
