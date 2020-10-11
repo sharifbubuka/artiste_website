@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <title>Dextar | Home</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script
       defer
       src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
@@ -34,17 +38,20 @@
     </div>
 
     <div class="music_player">
+      <audio controls>
+        <source src="" type="">
+       </audio>
       <img src="images/song_cover.jpg" alt="#" id="song_cover" />
       
       <div class="controls">
         <div>
           <div id="rewind" class="control"><img src="images/rewind.png" alt="#" /></div>
-          <div id="play" class="control"><img src="images/play.png" alt="#" /></div>
+          <div id="play" class="control"><img src="images/play.png" alt="#" id="play_pause"/></div>
           <div id="fastforward" class="control"><img src="images/fast-forward.png" alt="#" /></div>
         </div>
         <div class="song_details">
-          <span id="artiste">Dextar</span> <br />
-          <span class="title">killin' me (Remix)</span> <!--not more than 25 chars-->
+          <span id="artiste_name">Dextar</span> <br />
+          <span class="song_title">killin' me (Remix)</span> <!--not more than 25 chars-->
         </div>
       </div>
       <div class="progress">
@@ -54,4 +61,5 @@
     </div>
   </body>
   <script src="javascript/main.js"></script>
+  <script src="javascript/musicplayer.js"></script>
 </html>

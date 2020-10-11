@@ -93,6 +93,9 @@ body {
   z-index: 2;
   height: fit-content;
 }
+.music_player audio {
+  display: none;
+}
 #song_cover {
   width: 160px;
   height: 160px;

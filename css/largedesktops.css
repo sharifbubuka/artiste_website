@@ -7,6 +7,7 @@
     display: none !important;
   }
   .logo {
+    width: 200px;
     top: 20px;
     left: 20%;
   }
