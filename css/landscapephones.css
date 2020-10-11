@@ -2,4 +2,46 @@
 @media (min-width: 767px) {
   body {
     background-color: yellow;
+  }
+  .nav {
+    padding-top: 10%;
+  }
+  .nav a {
+    background-color: green;
+    font-size: 25px;
+  }
+  .nav .close {
+    font-size: 25px;
+  }
+  .slide a {
+    font-size: 25px;
+  }
+  .slide a #bars {
+    margin-top: 25px;
+  }
+  .logo {
+    top: 25px;
+    right: 25px;
+    width: 200px;
+  }
+  #song_cover {
+    width: 115px;
+    height: 115px;
+  }
+  .controls div #rewind,
+  .controls div #play,
+  .controls div #fastforward {
+    width: 50px;
+    height: 50px;
+  }
+  .controls img {
+    width: 20px;
+    height: 20px;
+  }
+  .song_details {
+    font-size: 18px;
+  }
+  .progress .count {
+    font-size: 15px;
+  }
 }
