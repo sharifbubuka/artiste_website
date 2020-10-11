@@ -4,6 +4,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
 }
 *:focus {
   outline: none;
@@ -30,7 +32,7 @@ body {
   left: 0;
   background-color: black;
   overflow-x: hidden;
-  padding-top: 80px;
+  padding-top: 40px;
   transition: .7s;
   display: flex;
   flex-direction: column;
@@ -84,7 +86,8 @@ body {
   top: 25px;
   right: 30px;
   width: 150px;
-  transition: right .9s;
+  transition: .9s;
+  z-index: -2;
 }
 
 .music_player {
@@ -102,9 +105,9 @@ body {
   display: none;
 }
 #song_cover {
-  width: 80px;
-  height: 80px;
-  border-radius: 25px;
+  width: 75px;
+  height: 75px;
+  border-radius: 18px;
   cursor: pointer;
 }
 .controls {
@@ -128,8 +131,8 @@ body {
 .controls div #fastforward {
   background-color: #ccc;
   margin: 0 3px;
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,17 +146,16 @@ body {
   background-color: white;
 } 
 .controls img {
-  width: 12px;
-  height: 12px;
+  width: 11px;
+  height: 11px;
   transition: .5s;
 }
 .song_details {
   width: 100%;
   max-height: fit-content;
-  padding-left: 2px;
   font-size: 12px;
   transition: .7s;
-  padding-top: 8px;
+  padding-top: 6px;
   padding-left: 5px;
 }
 

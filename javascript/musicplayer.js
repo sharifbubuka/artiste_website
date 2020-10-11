@@ -30,7 +30,6 @@ playButton.addEventListener('click', (e) => {
   if (playPauseImage.src.endsWith('play.png')) {
     playPauseImage.src = 'images/pause.png';
     song.play();
-    console.log(song.duration);
   } else if (playPauseImage.src.endsWith('pause.png')) {
     playPauseImage.src = 'images/play.png';
     song.pause();
