@@ -5,6 +5,12 @@
   margin: 0;
   padding: 0;
 }
+*:focus {
+  outline: none;
+}
+*:active {
+  outline: none;
+}
 body {
   font-family: 'Alegreya Sans', sans-serif;
   overflow-x: hidden;
@@ -24,11 +30,10 @@ body {
   left: 0;
   background-color: black;
   overflow-x: hidden;
-  padding-top: 60px;
+  padding-top: 80px;
   transition: .7s;
   display: flex;
   flex-direction: column;
-  padding-top: 30%;
   overflow-y: hidden;
 }
 .nav a {
@@ -37,7 +42,7 @@ body {
   min-width: fit-content;
   margin: 0 auto;
   padding: 20px 30px;
-  font-size: 60px;
+  font-size: 35px;
   text-decoration: none;
   color: #ccc;
   text-align: center;
@@ -51,18 +56,18 @@ body {
 }
 .nav .close {
   position: absolute;
-  top: 10px;
-  right: 30px;
+  top: 25px;
+  right: 20px;
   margin-left: 50px;
-  font-size: 60px;
+  font-size: 30px;
 }
 .slide a {
   color: #000;
-  font-size: 60px;
+  font-size: 30px;
   margin-left: 30px;
 }
 .slide a #bars {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 .slide a #bars,
 .close #times {
@@ -76,9 +81,9 @@ body {
 }
 .logo {
   position: fixed;
-  top: 50px;
-  right: 50px;
-  width: 280px;
+  top: 25px;
+  right: 30px;
+  width: 150px;
   transition: right .9s;
 }
 
@@ -97,8 +102,8 @@ body {
   display: none;
 }
 #song_cover {
-  width: 160px;
-  height: 160px;
+  width: 100px;
+  height: 100px;
   border-radius: 25px;
   cursor: pointer;
 }
@@ -108,7 +113,7 @@ body {
   align-items: start;
   justify-content: start;
   max-height: 126px;
-  margin: 0 5px;
+  margin: 10px 5px;
   align-self: start;
 }
 .controls div:nth-child(1) {
@@ -123,12 +128,12 @@ body {
 .controls div #fastforward {
   background-color: #ccc;
   margin: 0 3px;
-  width: 80px;
-  height: 80px;
+  width: 35px;
+  height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 18px;
+  border-radius: 8px;
   cursor: pointer;
   transition: .4s;
 }
@@ -138,15 +143,15 @@ body {
   background-color: white;
 } 
 .controls img {
-  width: 35px;
-  height: 35px;
+  width: 14px;
+  height: 14px;
   transition: .5s;
 }
 .song_details {
   width: 100%;
   max-height: fit-content;
   padding-left: 2px;
-  font-size: 23px;
+  font-size: 16px;
   transition: .7s;
   padding-top: 8px;
   padding-left: 5px;
@@ -165,7 +170,7 @@ body {
   background-color: #ccc;
   width: fit-content;
   padding: 3px 5px;
-  font-size: 18px;
+  font-size: 11px;
   position: absolute;
   right: 10px;
   top: 55px;

@@ -10,7 +10,7 @@
     font-size: 30px;
   }
   .nav .close {
-    font-size: 30px;
+    font-size: 40px;
   }
   .slide a {
     font-size: 30px;
@@ -21,26 +21,27 @@
   .logo {
     top: 25px;
     right: 25px;
-    width: 210px;
+    width: 175px;
   }
   #song_cover {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
   }
   .controls div #rewind,
   .controls div #play,
   .controls div #fastforward {
-    width: 40px;
-    height: 40px;
+    width: 37px;
+    height: 37px;
+    border-radius: 11px;
   }
   .controls img {
     width: 20px;
     height: 20px;
   }
   .song_details {
-    font-size: 17px;
+    font-size: 18px;
   }
   .progress .count {
-    font-size: 15px;
+    font-size: 12px;
   }
 }

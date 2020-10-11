@@ -1,9 +1,16 @@
+const songDurationDisplay = document.getElementById('duration');
 const rewindButton = document.getElementById('rewind');
 const playButton = document.getElementById('play');
 const forwardButton = document.getElementById('fastforward');
 const audioElement = document.getElementsByTagName('audio')[0];
 
 const song = new Audio('music/killin_me.mpeg');
+
+function displaySongDuration(newSong) {
+  const displayfigure = song.duration / 60;
+  console.log(displayfigure);
+}
+displaySongDuration(song);
 
 rewindButton.addEventListener('click', (e) => {
   if (song.paused) {
