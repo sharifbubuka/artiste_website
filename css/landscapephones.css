@@ -1,8 +1,8 @@
 /* Landscape phones and portrait tablets */
 @media (min-width: 767px) {
   body {
-    background-color: yellow;
-  }
+    background-color: blue;
+  }/*
   .nav {
     padding-top: 10%;
   }
@@ -43,5 +43,5 @@
   }
   .progress .count {
     font-size: 15px;
-  }
+  }*/
 }
