@@ -3,4 +3,45 @@
   body {
     background-color: yellow;
   }
+  .nav {
+    padding-top: 50px;
+  }
+  .nav a {
+    background-color: green;
+    font-size: 30px;
+  }
+  .nav .close {
+    font-size: 30px;
+  }
+  .slide a {
+    font-size: 30px;
+  }
+  .slide a #bars {
+    margin-top: 30px;
+  }
+  .logo {
+    top: 25px;
+    right: 25px;
+    width: 210px;
+  }
+  #song_cover {
+    width: 100px;
+    height: 100px;
+  }
+  .controls div #rewind,
+  .controls div #play,
+  .controls div #fastforward {
+    width: 40px;
+    height: 40px;
+  }
+  .controls img {
+    width: 20px;
+    height: 20px;
+  }
+  .song_details {
+    font-size: 17px;
+  }
+  .progress .count {
+    font-size: 15px;
+  }
 }
