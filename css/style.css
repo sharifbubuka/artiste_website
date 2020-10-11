@@ -102,8 +102,8 @@ body {
   display: none;
 }
 #song_cover {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 25px;
   cursor: pointer;
 }
@@ -128,8 +128,8 @@ body {
 .controls div #fastforward {
   background-color: #ccc;
   margin: 0 3px;
-  width: 35px;
-  height: 35px;
+  width: 32px;
+  height: 32px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,15 +143,15 @@ body {
   background-color: white;
 } 
 .controls img {
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   transition: .5s;
 }
 .song_details {
   width: 100%;
   max-height: fit-content;
   padding-left: 2px;
-  font-size: 16px;
+  font-size: 12px;
   transition: .7s;
   padding-top: 8px;
   padding-left: 5px;
@@ -170,7 +170,7 @@ body {
   background-color: #ccc;
   width: fit-content;
   padding: 3px 5px;
-  font-size: 11px;
+  font-size: 10px;
   position: absolute;
   right: 10px;
   top: 55px;
