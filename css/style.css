@@ -32,11 +32,12 @@ body {
   left: 0;
   background-color: black;
   overflow-x: hidden;
-  padding-top: 40px;
   transition: .7s;
   display: flex;
   flex-direction: column;
   overflow-y: hidden;
+  align-items: center;
+  justify-content: center;
 }
 .nav a {
   display: flex;
@@ -66,24 +67,23 @@ body {
 .slide a {
   color: #000;
   font-size: 30px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .slide a #bars {
-  margin-top: 25px;
+  margin-top: 15px;
 }
 .slide a #bars,
 .close #times {
   transition: opacity .7s;
 }
 #content {
-  padding: 10px;
   transition: margin-left 0.7s;
   overflow: hidden;
   width: 100%;
 }
 .logo {
   position: fixed;
-  top: 25px;
+  top: 15px;
   right: 30px;
   width: 150px;
   transition: .9s;
@@ -105,8 +105,8 @@ body {
   display: none;
 }
 #song_cover {
-  width: 75px;
-  height: 75px;
+  width: 73px;
+  height: 73px;
   border-radius: 18px;
   cursor: pointer;
 }
@@ -131,8 +131,8 @@ body {
 .controls div #fastforward {
   background-color: #ccc;
   margin: 0 3px;
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,8 +146,8 @@ body {
   background-color: white;
 } 
 .controls img {
-  width: 11px;
-  height: 11px;
+  width: 10px;
+  height: 10px;
   transition: .5s;
 }
 .song_details {

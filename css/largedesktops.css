@@ -6,10 +6,26 @@
   .slide a {
     display: none !important;
   }
+  .nav .close {
+    display: none;
+  }
+  .nav {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 30px;
+    left: 66.5%;
+    flex-direction: row;
+    transition: 0s;
+  }
+  .nav a {
+    padding: 10px 15px;
+    font-size: 20px;
+  }
   .logo {
-    width: 200px;
+    width: 220px;
     top: 20px;
-    left: 20%;
+    left: 12%;
+    transition: 0s;
   }
   .music_player {
     left: 12%;
