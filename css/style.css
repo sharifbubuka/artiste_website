@@ -80,6 +80,12 @@ body {
   transition: margin-left 0.7s;
   overflow: hidden;
   width: 100%;
+  min-height: 100vh;
+  background: url('../images/web_mobile_banner.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .logo {
   position: fixed;
