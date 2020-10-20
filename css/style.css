@@ -149,7 +149,7 @@ body {
 .controls div #rewind:hover,
 .controls div #play:hover,
 .controls div #fastforward:hover {
-  background-color: white;
+  background-color: transparent;
 } 
 .controls img {
   width: 10px;
