@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/artiste_website/static/css/main.f1469958.chunk.css",
+    "main.js": "/artiste_website/static/js/main.4230f475.chunk.js",
+    "main.js.map": "/artiste_website/static/js/main.4230f475.chunk.js.map",
+    "runtime-main.js": "/artiste_website/static/js/runtime-main.85b24436.js",
+    "runtime-main.js.map": "/artiste_website/static/js/runtime-main.85b24436.js.map",
+    "static/js/2.0fcfba1e.chunk.js": "/artiste_website/static/js/2.0fcfba1e.chunk.js",
+    "static/js/2.0fcfba1e.chunk.js.map": "/artiste_website/static/js/2.0fcfba1e.chunk.js.map",
+    "index.html": "/artiste_website/index.html",
+    "precache-manifest.6eed247a4809d9b2d4f473bc5d430950.js": "/artiste_website/precache-manifest.6eed247a4809d9b2d4f473bc5d430950.js",
+    "service-worker.js": "/artiste_website/service-worker.js",
+    "static/css/main.f1469958.chunk.css.map": "/artiste_website/static/css/main.f1469958.chunk.css.map",
+    "static/js/2.0fcfba1e.chunk.js.LICENSE.txt": "/artiste_website/static/js/2.0fcfba1e.chunk.js.LICENSE.txt",
+    "static/media/applemusic.svg": "/artiste_website/static/media/applemusic.d90eeec1.svg",
+    "static/media/audiomack.svg": "/artiste_website/static/media/audiomack.f07891bd.svg",
+    "static/media/logo.png": "/artiste_website/static/media/logo.387f80ce.png",
+    "static/media/soundcloud.svg": "/artiste_website/static/media/soundcloud.888e6582.svg",
+    "static/media/spotify.svg": "/artiste_website/static/media/spotify.aee4e77e.svg",
+    "static/media/youtube.svg": "/artiste_website/static/media/youtube.d57a47e1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85b24436.js",
+    "static/js/2.0fcfba1e.chunk.js",
+    "static/css/main.f1469958.chunk.css",
+    "static/js/main.4230f475.chunk.js"
+  ]
+}
