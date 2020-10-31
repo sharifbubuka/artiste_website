@@ -27,8 +27,8 @@ const Player = () => {
         <div className='song-details'>
           <img src='https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d3/09/5e/d3095eaa-1a53-72c6-1088-abe733a7d988/886448775256.jpg/200x200bb-60.jpg' alt='Song Cover' className='song-cover'/>
           <div>
-           <span className='artiste-name'>Dextar</span>
-           <span className='song-name'>The One</span>
+           {/*<span className='artiste-name'>Dextar</span>
+           <span className='song-name'>The One</span>*/}
           </div>
         </div>
         <div className='player-settings'>
@@ -41,7 +41,7 @@ const Player = () => {
           </IconButton>
         </div>
         <div className='services__section'>
-          <Button variant='contained' color='primary' size='small' startIcon={<ShoppingCart />}>Buy</Button>
+          {/*<Button variant='contained' color='primary' size='small' startIcon={<ShoppingCart />}>Buy</Button>*/}
           <MoreVert />
         </div>
       </div>
