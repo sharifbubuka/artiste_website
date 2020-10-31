@@ -1,5 +1,5 @@
 import React from 'react'
-import Ticker from './Ticker.jsx'
+import InfoTicker from './InfoTicker.jsx'
 import { IconButton, Button } from '@material-ui/core';
 import { PlayCircleOutline, PauseCircleOutline } from '@material-ui/icons'
 import { FastRewind, FastForward, ShoppingCart, MoreVert } from '@material-ui/icons'
@@ -21,7 +21,7 @@ const Player = () => {
         <span className='end-time'>3:41</span>
       </div>
 
-      <Ticker />
+      <InfoTicker />
 
       <div className='control-panel__section'>
         <div className='song-details'>
