@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+*:focus {
+  outline: none;
+}
+*:active {
+  outline: none;
+}
+
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+}

@@ -87,6 +87,11 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+@media (min-width: 700px) {
+  .content {
+    background-image: url('../images/web_desktop_banner.jpg');
+  }
+}
 .logo {
   position: fixed;
   top: 15px;
